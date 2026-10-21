@@ -21,6 +21,6 @@ int main(void)
         sum += scores[i];
     }
 
-    printf("%d\n", sum / count);  /* ← 小数まで表示されるように、ここを直す */
+    printf("%f\n", sum / (float)count);  /* ← 小数まで表示されるように、ここを直す */
     return 0;
 }
